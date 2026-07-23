@@ -1,0 +1,20 @@
+{
+  "name": "Mayben Bijuteri",
+  "short_name": "Mayben Bijuteri",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/gMYYPQw2/MG-20260721-WA0000.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://i.ibb.co/gMYYPQw2/MG-20260721-WA0000.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
