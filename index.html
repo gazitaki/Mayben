@@ -1418,7 +1418,7 @@ async function sendOrder(){
     return;
   }
 
-  if(cartTotal() < 2000){ alert("⚠️ Minimum sipariş tutarı 2000₺'dir.\n\nSepet toplamınız: "+cartTotal()+"₺\nEn az "+(2000-cartTotal())+"₺ daha ürün eklemelisiniz."); return; }
+  if(cartTotal() < 3000){ alert("⚠️ Minimum sipariş tutarı 3000₺'dir.\n\nSepet toplamınız: "+cartTotal()+"₺\nEn az "+(3000-cartTotal())+"₺ daha ürün eklemelisiniz."); return; }
 
   await loadProducts();
   var _oncekiAdet = items.length;
